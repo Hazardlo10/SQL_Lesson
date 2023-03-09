@@ -1,5 +1,7 @@
 --new file
-SELECT *
+SELECT 
+last_name,
+count(1)
 FROM actor
-where first_name = 'Alex'
+group by last_name 
 limit 1 
